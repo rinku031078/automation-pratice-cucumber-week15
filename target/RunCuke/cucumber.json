@@ -1,0 +1,755 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am on Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2040428800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on \u0027Women\u0027 tab",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnWomenTab()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9718669200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify user should navigagte to women cagtagory page successfully",
+        "description": "",
+        "id": "women-category-page;verify-user-should-navigagte-to-women-cagtagory-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 807268800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55009700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on \u0027Women\u0027 page successfully",
+            "match": {
+              "location": "WomenCategoryPageTest.iAmOnWomenPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Smoke"
+          },
+          {
+            "line": 6,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am on Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2568087300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on \u0027Women\u0027 tab",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnWomenTab()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5399712100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify user should add product to the cart successfully",
+        "description": "",
+        "id": "women-category-page;verify-user-should-add-product-to-the-cart-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 797267200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1744100500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on product \"Blouse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blouse",
+                  "offset": 20
+                }
+              ],
+              "location": "WomenCategoryPageTest.iClickOnProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191382500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I change quantity \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "WomenCategoryPageTest.iChangeQuantity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250280000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select size \"M\" from dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "M",
+                  "offset": 15
+                }
+              ],
+              "location": "WomenCategoryPageTest.iSelectSizeFromDropdown(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129070800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on colour \"White\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "White",
+                  "offset": 19
+                }
+              ],
+              "location": "WomenCategoryPageTest.iClickOnColour(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96344900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027Add to Cart\u0027 button",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 737411500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Product added to cart successfully",
+            "match": {
+              "location": "WomenCategoryPageTest.productAddedToCartSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am on Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1922038200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on \u0027Women\u0027 tab",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnWomenTab()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5372435400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify user should add product to the cart successfully",
+        "description": "",
+        "id": "women-category-page;verify-user-should-add-product-to-the-cart-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 841949900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1356276100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on product \"Printed Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Dress",
+                  "offset": 20
+                }
+              ],
+              "location": "WomenCategoryPageTest.iClickOnProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142547000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I change quantity \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "WomenCategoryPageTest.iChangeQuantity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158676300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select size \"L\" from dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "L",
+                  "offset": 15
+                }
+              ],
+              "location": "WomenCategoryPageTest.iSelectSizeFromDropdown(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111959100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on colour \"Orange\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Orange",
+                  "offset": 19
+                }
+              ],
+              "location": "WomenCategoryPageTest.iClickOnColour(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94098800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027Add to Cart\u0027 button",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1116403800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Product added to cart successfully",
+            "match": {
+              "location": "WomenCategoryPageTest.productAddedToCartSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am on Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1715550500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on \u0027Women\u0027 tab",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnWomenTab()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5425709700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify user should add product to the cart successfully",
+        "description": "",
+        "id": "women-category-page;verify-user-should-add-product-to-the-cart-successfully;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 825069400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2468071500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on product \"Printed Chiffon Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Chiffon Dress",
+                  "offset": 20
+                }
+              ],
+              "location": "WomenCategoryPageTest.iClickOnProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115597400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I change quantity \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 19
+                }
+              ],
+              "location": "WomenCategoryPageTest.iChangeQuantity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88473900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select size \"S\" from dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 15
+                }
+              ],
+              "location": "WomenCategoryPageTest.iSelectSizeFromDropdown(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106562000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on colour \"Green\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green",
+                  "offset": 19
+                }
+              ],
+              "location": "WomenCategoryPageTest.iClickOnColour(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112518900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027Add to Cart\u0027 button",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666960600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Product added to cart successfully",
+            "match": {
+              "location": "WomenCategoryPageTest.productAddedToCartSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am on Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2207162100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on \u0027Women\u0027 tab",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnWomenTab()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6054594300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify user should add product to the cart successfully",
+        "description": "",
+        "id": "women-category-page;verify-user-should-add-product-to-the-cart-successfully;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 854424300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1543682700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on product \"Printed Summer Dress with Price $28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress with Price $28.98",
+                  "offset": 20
+                }
+              ],
+              "location": "WomenCategoryPageTest.iClickOnProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117047600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I change quantity \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "WomenCategoryPageTest.iChangeQuantity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121817600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select size \"M\" from dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "M",
+                  "offset": 15
+                }
+              ],
+              "location": "WomenCategoryPageTest.iSelectSizeFromDropdown(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93787600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on colour \"Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue",
+                  "offset": 19
+                }
+              ],
+              "location": "WomenCategoryPageTest.iClickOnColour(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111930800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027Add to Cart\u0027 button",
+            "match": {
+              "location": "WomenCategoryPageTest.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735917700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Product added to cart successfully",
+            "match": {
+              "location": "WomenCategoryPageTest.productAddedToCartSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Women Category Page",
+    "description": "",
+    "id": "women-category-page",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/WomenCategoryPageTest.feature"
+  }
+]
